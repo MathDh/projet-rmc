@@ -1,0 +1,188 @@
+.interface
+{
+    color:white;
+    font-family:Helvetica;
+}
+
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+body{
+    background-color:#363636;
+}
+
+.cont{
+    margin: 250px;
+    width: 950px;
+    height: 750px;
+    line-height: 115px;
+    text-align: center;
+}
+.resize_fit_center {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: auto;
+}
+
+.txtg{
+    color:white;
+    font-size:40px;
+    font-family:Helvetica;
+    margin:center;
+    text-align:center;
+}
+.txt{
+    color:white;
+    font-size:20px;
+    font-family:Helvetica;
+    margin:center;
+    text-align:center;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  background: #030321;
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+img {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+img:hover {
+    border : 2px solid #000000;
+    box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+
+.row {
+    display: flex;
+  }
+  .col {
+    flex: 1; 
+    padding: 1em;
+    border: solid;
+  }
+
+.titre
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size:45px;
+    text-align: auto,justify;
+    margin:auto;    
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.img {
+	max-width: 100%;
+	height: auto;
+}
+
